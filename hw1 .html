@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+
+    body {
+      margin: 20px 40px;
+}
+    p {
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+}
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+.wrapper2 {
+  display: flex;
+  height: 60px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+.orangeExample {
+  width: 80px;
+  background-color: orange;
+}
+.orangeExample2 {
+  width: 40px;
+  background-color: green;
+}
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
+
+.redExample3 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.emptyExample4 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyExample5 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.emptyExample33 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.emptyExample333 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.emptyExample3333 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+.redExample33 {
+  flex:1;
+  background-color: transparent;
+}
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+.blueExample3 {
+
+  width: 10px;
+  background-color: blue;
+}
+  </style>
+        </head>
+  <body>
+    <p>Assignment 1</p>
+    <p>Provided Examples</p>
+
+    <p>Row 1</p>
+    <div class="wrapper">
+      <div class="redExample"></div>
+      <div class="blueExample"></div>
+    </div>
+
+    <p>Row 2</p>
+    <div class="wrapper">
+      <div class="emptyExample2">
+      <div class="blueExample2"></div>
+      </div>
+    </div>
+
+    <!-- TODO: Insert div elements in the next 7 wrappers for your solution -->
+    <p>Student TODOs</p>
+    <p>Row 3</p>
+    <div class="wrapper">
+      <div class="emptyExample3">
+      <div class="redExample2"></div>
+      <div class="blueExample2"></div>
+    </div>
+    </div>
+
+    <p>Row 4</p>
+    <div class="wrapper">
+      <div class="emptyExample3">
+      <div class="redExample"></div>
+      <div class="blueExample2"></div>
+    </div>
+    </div>
+
+    <p>Row 5</p>
+    <div class="wrapper">
+      <div class="emptyExample4">
+      <div class="redExample3"></div>
+    </div>
+    </div>
+
+    <p>Row 6</p>
+    <div class="wrapper">
+      <div class="redExample"></div>
+      <div class="blueExample2"></div>
+      <div class="redExample"></div>
+    </div>
+
+    <p>Row 7</p>
+    <div class="wrapper">
+      <div class="redExample2"></div>
+      <div class="emptyExample33">
+      <div class="blueExample"></div>
+      <div class="redExample33"></div>
+      <div class="blueExample"></div>
+    </div>
+    </div>
+
+    <p>Row 8</p>
+    <div class="wrapper">
+      <div class="emptyExample333">
+      <div class="orangeExample"></div>
+      <div class="orangeExample"></div>
+      <div class="orangeExample"></div>
+      <div class="orangeExample"></div>
+      <div class="orangeExample"></div>
+    </div>
+  </div>
+
+    <p>Row 9</p>
+    <div class="wrapper2">
+      <div class="emptyExample3333">
+      <div class="orangeExample2"></div>
+      <div class="orangeExample2"></div>
+
+      <div class="orangeExample2"></div>
+      <div class="orangeExample2"></div>
+    </div>
+    </div>
+  </body>
+</html
